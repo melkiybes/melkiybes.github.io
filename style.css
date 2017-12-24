@@ -1,0 +1,22 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+
+html {
+  background-color: white;
+  font-family: "PT Serif", sans-serif;
+  font-size: 14px;
+  color: #444;
+  border: 15px solid black;
+  border-image-source: url(pattern.jpg);
+  border-image-slice: 15;
+  border-image-repeat: round;
+}
+
+h1 {
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  
+}
