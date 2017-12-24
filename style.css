@@ -4,7 +4,7 @@
 
 html {
   background-color: white;
-  font-family: "PT Serif", sans-serif;
+  font-family: "PT Serif", serif;
   font-size: 14px;
   color: #444;
   border: 15px solid black;
@@ -12,11 +12,33 @@ html {
   border-image-slice: 15;
   border-image-repeat: round;
 }
-
 h1 {
-  vertical-align: middle;
-  text-align: center;
   font-family: "Merriweather", serif;
   font-size: 1.5rem;
-  
+  text-align: center;
+}
+#header {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0px;
+  left: 0;
+  overflow: auto;
+  white-space: nowrap;
+  text-align: center;
+
+  &:before {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+  }
+}
+
+img, h1{
+  display: inline-block;
+  white-space: normal;
+  padding: 0px 5px;
+  vertical-align: middle;
+  text-align: left;
 }
