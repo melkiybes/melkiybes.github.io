@@ -3,12 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
 
 html {
-  background-color: white;
   font-family: "PT Serif", serif;
   font-size: 14px;
   color: #444;
   background-image: url(pattern.png);
   background-repeat: repeat;
+}
+body{
+   background-color: white;
+   margin: 15px;
 }
 h1 {
   font-family: "Merriweather", serif;
