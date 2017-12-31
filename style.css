@@ -3,40 +3,63 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
 
 html {
+	background-image: url('images/pattern.png');
+	background-repeat: repeat;
+	background-size: 15vh 15vw;
   font-family: "PT Serif", serif;
   font-size: 14px;
   color: #444;
-  background-image: url(pattern.png);
-  background-repeat: repeat;
 }
 body{
-   background-color: white;
-   margin: 15px;
+  margin: 1rem;
+  background-color: white;
+}
+* body{
+  margin: 1rem;
 }
 h1 {
   font-family: "Merriweather", serif;
   font-size: 1.5rem;
+  padding-top: 1rem;
   text-align: center;
 }
-#header {
+#header{
   width: 100%;
   height: 100%;
   position: relative;
   top: 0px;
   left: 0;
-  overflow: auto;
   white-space: nowrap;
   text-align: center;
+  overflow: auto;
+  border-bottom: solid #444 2px;
+}
 
-  &:before {
+#footer{
+  width: 100%;
+  height: 100%;
+  text-align: center; 
+  background-color: #FFEEE9;
+  border-top: solid #444 2px;
+}
+a.refsdown, a.refsdown:visited{
+  text-decoration: none;
+  padding: 0px 5px;
+  color: #444;
+}
+
+a.refsdown:focus, a.refsdown:hover, a.refsdown:active{
+  color: darkred;
+}
+
+#before {
     height: 100%;
     display: inline-block;
     vertical-align: middle;
     content: '';
-  }
 }
 
-img, h1{
+img#logo, h1{
   display: inline-block;
   white-space: normal;
   padding: 0px 5px;
