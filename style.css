@@ -66,3 +66,12 @@ img#logo, h1{
   vertical-align: middle;
   text-align: left;
 }
+table.pedigree{
+	overflow-x: auto;
+	cell-padding: 5px;
+	text-align: center;
+	border: none;6
+	vertical-align: middle;
+	display: block;
+	border-collapse: collapse;
+}
